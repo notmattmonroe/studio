@@ -1,0 +1,106 @@
+/*
+ * Globals
+ */
+@import url(https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans:400,500,700,800,700italic,500italic,400italic,800italic,300italic);
+@import url(https://fonts.googleapis.com/css?family=Chivo:400,900);
+body {  background-color: #553f53;
+	color: #6B6B6B; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { margin-top: 0; font-family: 'Chivo' sans-serif; font-weight: normal; color: #333; }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+.jumbotron {
+    background-color: #fff;
+    width: 100%;
+}
+
+.mainphoto {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+.mainphoto img {
+    width: 100%;
+    height: auto;
+}
+
+#mainnav {
+	background-color: #341633;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+#mainnav img{
+display: block;
+    margin: auto;
+}
+#mainnav a {
+    color: white;
+    text-decoration: none;
+}
+#mainnav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-main {
+    border: thin solid blue;
+}
+
+.navbar-main .navbar-nav > li > a:hover, .navbar-main .navbar-nav > li > a:focus {
+    background-color: #553f53;
+     border: thin solid red;
+}
+
+.sitelogo {
+    position: fixed;
+    left: 5%;
+}
+.sitetitle {
+    font-family: 'Alegreya', serif;
+    color: white;
+}
+
+
+.courseheader {
+    width: 70%;
+    
+}
+
+
+.courseheader img {
+    width: 50%;
+    height: 50%;
+}
+
+.col-md-3 > ul, .col-md-2 > ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+.col-md-3 > ul a, .col-md-2 > ul a {
+    color: #341633;
+}
+.col-md-4, .col-md-3, .col-md-2 {
+    text-align: left;
+}
+.col-md-4 > h2, .col-md-3 > h2, .col-md-2 > h2 {
+    text-align: left;
+    font-family: 'Alegraya', serif;
+}
+.footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.footer p:last-child {
+  margin-bottom: 0;
+}
